@@ -4,18 +4,12 @@ layout: default
 
 {% include hero.html %}
 
-<section class="invitation">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.description | markdownify }}
-    </div>
-  </div>
-</section>
-
 <section class="about">
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+      <div>
+        {{ site.event.about.description | markdownify }}
+      </div>
     </div>
   </div>
 </section>
@@ -40,14 +34,19 @@ layout: default
 
 <section class="sponsors">
   <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>Sponsors</h2>
+      </div>
+    </div>
     <div class="items row">
       {% for sponsor in site.event.sponsors %}
       <div class="col-xs-12 col-md-2">
         <div class="sponsor">
           <div class="text-center">
             <a href="{{sponsor.url}}" target="_blank">
-              <img src="{{ sponsor.image }}" />
-              <h3>{{ section.name }}</h3>
+              <img class="img-fluid" src="{{ sponsor.image }}" />
+              <h3>{{ sponsor.name }}</h3>
             </a>
           </div>
         </div>

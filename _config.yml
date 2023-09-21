@@ -41,7 +41,6 @@ event:
   name:        "Unleash Halloween with OpenAI"
   image:       "images/announcement.jpg"
   subtitle: "Embrace the eerie and mysterious side of AI in this Hack-0-Ween Challenge"
-  description: "Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords."
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
 
@@ -54,7 +53,11 @@ event:
 
   about:
     description: >
+      > Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords.
+
       The SpookyTech Hackathon is a unique and immersive event that challenges participants to incorporate OpenAI technology into their Halloween-themed projects, costumes, or bots. Whether you're a seasoned developer or a novice coder, this event promises a ghoulishly good time filled with innovation, creativity, and the opportunity to learn and experiment with cutting-edge AI.
+
+
 
   # Info Sections
   info:
