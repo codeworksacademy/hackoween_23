@@ -14,7 +14,7 @@
   --theme: #8bc539;
   --accent: purple;
   --callout: yellow;
-  --secondary: #d7a356;
+  --compliment: #d7a356;
   --dark: #0c0c0c;
   --light: #d0d0d0;
   --page-bg: #c1c1c1;
@@ -29,8 +29,8 @@
 .text-callout{
   color: var(--callout);
 }
-.text-secondary{
-  color: var(--secondary);
+.text-compliment{
+  color: var(--compliment);
 }
 
 .bg-theme{
@@ -67,7 +67,6 @@ section {
  */
 
 .hero {
-  background-color: var(--dark);
   min-height: 100vh;
   padding: 4em;
 }
@@ -84,7 +83,7 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 30vh;
+  padding-top: 15vh;
 }
 
 .hero .wrapper h1 {
@@ -136,7 +135,7 @@ section {
 section {
   border-width: 15px 0;
   background-color: #fff;
-  padding: 130px 0;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -157,21 +156,17 @@ section p span {
  * Info Section
  */
 
-.info {
-  background-color: #fff;
-  margin-top: 15px;
-  padding: 100px 0;
-  position: relative;
-}
-
 .info .item {
-  padding: 20px;
+  padding: 10px;
 }
 
-.info .item h1 {
+.info .item h3 {
   font-family: 'Montserrat';
   font-weight: 700;
-  margin: 20px 0;
+}
+
+.info .item p {
+  font-weight: unset;
 }
 
 .info .item img {

@@ -1,19 +1,14 @@
-<section class="hero">
+<section class="hero bg-black">
   <div class="wrapper text-center">
     <img class="hero-img" src="{{ site.event.image }}" alt="event image" />
     <h1 rel="title" class="text-theme">{{ site.event.name }}</h1>
-    <h2 rel="description" class="text-secondary">{{ site.event.subtitle }}</h2>
+    <h2 rel="description" class="text-compliment">{{ site.event.subtitle }}</h2>
     <h3 rel="location" class="text-light">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
     <hr>
     <div class="buttons">
       {% for link in site.event.hero.links %}
       {% if link.href %}
       <a href="{{ link.href }}">{{ link.text }}</a>
-      {% elsif link.my_mlh %}
-      <a class="apply"
-        href="https://my.mlh.io/oauth/authorize?client_id={{ link.my_mlh.client_id }}&amp;redirect_uri={{ link.my_mlh.redirect_uri }}&amp;response_type=token">{{
-        link.text }}</a>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
