@@ -1,0 +1,120 @@
+# --------------
+# -- Settings --
+# --------------
+
+# If you are hosting in a sub-folder, for example: https://mlh.github.io/mlh-hackathon-boilerplate/,
+# you must specify it as the baseurl
+# If you hosting as a root, for example: htttps://[github username].github.io, then leave it blank
+baseurl: "/hackoween_23"
+
+# uncomment the next line if you are hosting as a root and not sub-folder
+# for example, when running locally at http://127.0.0.1:4000/
+# baseurl: ""
+
+# If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
+# If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
+url: "https://hackoween_23.codeworksacademy.com"
+
+# The ability to use custom themes.
+style:
+  theme: "original"
+
+# This will help you track who's visiting your website.
+tracking:
+  google_analytics: "UA-68420293-1"
+
+# Let people connect & engage with you through social media.
+social:
+  twitter_handle: "boisecodeworks"
+
+# This is Search Engine Optimization. It'll help your website look better on search.
+seo:
+  title:       "CodeWorks Hack-0-Ween | 28 October 2023"
+  description: "CodeWorks SpookyTech Hackathon: Unleash Halloween with OpenAI"
+  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+
+# Event information.
+event:
+  name:        "CodeWorks SpookyTech Hackathon: Unleash Halloween with OpenAI"
+  description: "Are you ready to embrace the eerie and mysterious side of technology this Halloween season? Welcome to the SpookyTech Hackathon, where we invite tech enthusiasts, developers, and creative minds to combine their skills with the power of OpenAI and infuse a spine-chilling, spooky twist into their projects."
+  date:        "28 October 2023"
+  location:    "Boise, ID, United States"
+
+  trust_badge:
+    year:   "2023"  # season year
+    region: "US"    # "na" or "eu"
+    color:  "black" # "white", "black", "gray", "red", "blue" or "yellow"
+
+  hero:
+    links:
+      - text: "Apply"
+        my_mlh:
+          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+      - text: "Sponsor"
+        href: "mailto:sponsorship@website.com"
+
+  about:
+    description: >
+      The SpookyTech Hackathon is a unique and immersive event that challenges participants to incorporate OpenAI technology into their Halloween-themed projects, costumes, or bots. Whether you're a seasoned developer or a novice coder, this event promises a ghoulishly good time filled with innovation, creativity, and the opportunity to learn and experiment with cutting-edge AI.
+
+  # Info Sections
+  info:
+    sections:
+      - image: "images/image1.png"
+        title: "OpenAI Integration"
+        description: >
+          Participants are encouraged to use OpenAI's powerful language models to add a touch of intelligence to their Halloween-themed creations. From chatbots that tell ghost stories to AI-powered costume recommendations, the possibilities are endless.
+      - image: "images/image2.png"
+        title: "Spooky Themes"
+        description: >
+          We're looking for projects, costumes, and bots that embrace the spirit of Halloween. Think haunted houses, ghostly apparitions, witches' spells, and everything eerie and enchanting.
+      - image: "images/image3.png"
+        title: "Thrilling Prizes"
+        description: >
+          Compete for a chance to win exciting prizes, including tech gadgets, online course subscriptions, and more. Our judges will evaluate projects based on creativity, technical prowess, and adherence to the spooky theme.
+      - image: "images/image3.png"
+        title: "Collaboration and Learning"
+        description: >
+          Connect with fellow tech enthusiasts, learn from experienced mentors, and expand your network within the tech community. The SpookyTech Hackathon is a fantastic opportunity to collaborate and grow your skills.
+
+  # Frequently asked questions.
+  faq:
+    - question: "What is a hackathon?"
+      answer: >
+        A hackathon is an invention marathon. Students come together to build cool
+        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+    - question: "How much does it cost?"
+      answer: >
+        Nothing. Attending a Hackathon is free. Equipment, Swag, and Participation in some events may have required purchases 
+    - question: "Do I need to be a student to attend?"
+      answer: >
+        No. While many students are likely to participate we are open to the community. Often categories of the competition will be split to included student and community prizes.
+    - question: "Where is the event?"
+      answer: >
+        The event is being hosted at CodeWorks. 8455 Westpark Ave, Boise ID 83704
+    - question: "What is CodeWorks?"
+      answer: >
+        CodeWorks provides multi-week educational bootcamps that teach promising students in-demand tech skills. Learn More at [boisecodeworks.com](https://boisecodeworks.com)
+    - question: "Is there a code of conduct?"
+      answer: >
+        Yes there is. We enforce it very strongly. You can [find it here](code_of_conduct).
+
+  # This is the message you'll receive once you've registered.
+  register:
+    message: >
+      You'll receive more information closer to the hackathon.
+
+# ----------------------------------------------------
+# -- Ignore this unless you know what you're doing. --
+# ----------------------------------------------------
+
+markdown: kramdown
+exclude:
+ - node_modules
+ - gulpfile.js
+ - Gemfile
+ - Gemfile.lock
+ - package.json
+ - README.md
+ - CNAME
