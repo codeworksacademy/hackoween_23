@@ -105,7 +105,7 @@ event:
         CodeWorks provides multi-week educational bootcamps that teach promising students in-demand tech skills. Learn More at [boisecodeworks.com](https://boisecodeworks.com)
     - question: "Is there a code of conduct?"
       answer: >
-        Yes there is. We enforce it very strongly. You can [find it here](https://github.com/codeworksacademy/hackathon_code_of_conduct
+        Yes there is. We enforce it very strongly. You can [find it here](https://github.com/codeworksacademy/hackathon_code_of_conduct)
   # This is the message you'll receive once you've registered.
   register:
     message: >
