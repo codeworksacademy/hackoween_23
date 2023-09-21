@@ -16,7 +16,7 @@
   --alert: yellow;
   --secondary: orange;
   --dark: #0c0c0c;
-  --light: #c1c1c1;
+  --light: #ebebeb;
   --page-bg: #c1c1c1;
 }
 
@@ -141,17 +141,12 @@ section {
 
 .info .item h1 {
   font-family: 'Montserrat';
-  font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
 }
 
 .info .item img {
-  max-width: 220px;
-}
-
-.info .item p {
-  font-size: 20px;
+  max-width: min(100%,250px);
 }
 
 /*

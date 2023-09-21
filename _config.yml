@@ -33,24 +33,24 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "CodeWorks Hack-0-Ween | 28 October 2023"
-  description: "CodeWorks SpookyTech Hackathon: Unleash Halloween with OpenAI"
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  description: "Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords."
+  image:       ""
 
 # Event information.
 event:
+  image: ""
   name:        "CodeWorks SpookyTech Hackathon: Unleash Halloween with OpenAI"
-  description: "Are you ready to embrace the eerie and mysterious side of technology this Halloween season? Welcome to the SpookyTech Hackathon, where we invite tech enthusiasts, developers, and creative minds to combine their skills with the power of OpenAI and infuse a spine-chilling, spooky twist into their projects."
+  subtitle: "Are you ready to embrace the eerie and mysterious side of AI tech this Halloween season"
+  description: "Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords."
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
 
   hero:
     links:
       - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+        href: ""
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: ""
 
   about:
     description: >
