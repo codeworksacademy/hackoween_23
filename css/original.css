@@ -17,7 +17,7 @@
   --compliment: #d7a356;
   --dark: #0c0c0c;
   --light: #d0d0d0;
-  --page-bg: #c1c1c1;
+  --page-bg: #b1aea4;
 }
 
 .text-theme{
@@ -140,7 +140,6 @@ section {
 }
 
 section p {
-  color: #0F2C34;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
@@ -167,6 +166,7 @@ section p span {
 
 .info .item p {
   font-weight: unset;
+  color: var(--page-bg);
 }
 
 .info .item img {
