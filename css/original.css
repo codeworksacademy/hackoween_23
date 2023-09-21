@@ -13,12 +13,40 @@
 :root {
   --theme: #8bc539;
   --accent: purple;
-  --alert: yellow;
+  --callout: yellow;
   --secondary: #d7a356;
   --dark: #0c0c0c;
   --light: #d0d0d0;
   --page-bg: #c1c1c1;
 }
+
+.text-theme{
+  color: var(--theme);
+}
+.text-accent{
+  color: var(--accent);
+}
+.text-callout{
+  color: var(--callout);
+}
+.text-secondary{
+  color: var(--secondary);
+}
+
+.bg-theme{
+  background-color: var(--theme);
+}
+.bg-accent{
+  background-color: var(--accent);
+}
+.bg-callout{
+  background-color: var(--callout);
+}
+.bg-secondary{
+  background-color: var(--secondary);
+}
+
+
 
 * {
   font-family: 'Open Sans';
@@ -105,14 +133,14 @@ section {
  * About Section
  */
 
-.about {
+section {
   border-width: 15px 0;
   background-color: #fff;
   padding: 130px 0;
   position: relative;
 }
 
-.about p {
+section p {
   color: #0F2C34;
   font-weight: 600;
   font-size: 22px;
@@ -120,7 +148,7 @@ section {
   letter-spacing: -.3px;
 }
 
-.about p span {
+section p span {
   font-weight: 700;
   text-transform: uppercase;
 }
