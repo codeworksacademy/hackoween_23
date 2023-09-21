@@ -7,6 +7,9 @@
 # If you hosting as a root, for example: htttps://[github username].github.io, then leave it blank
 baseurl: "/hackoween_23"
 
+header_pages:
+  - code_of_conduct.md
+
 # uncomment the next line if you are hosting as a root and not sub-folder
 # for example, when running locally at http://127.0.0.1:4000/
 # baseurl: ""
@@ -39,11 +42,6 @@ event:
   description: "Are you ready to embrace the eerie and mysterious side of technology this Halloween season? Welcome to the SpookyTech Hackathon, where we invite tech enthusiasts, developers, and creative minds to combine their skills with the power of OpenAI and infuse a spine-chilling, spooky twist into their projects."
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
-
-  trust_badge:
-    year:   "2023"  # season year
-    region: "US"    # "na" or "eu"
-    color:  "black" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
