@@ -7,7 +7,6 @@
     <hr>
     <div class="buttons">
       {% for link in site.event.hero.links %}
-      {% if link.href %}
       <a href="{{ link.href }}">{{ link.text }}</a>
       {% endfor %}
     </div>
