@@ -5,7 +5,7 @@
 # If you are hosting in a sub-folder, for example: https://mlh.github.io/mlh-hackathon-boilerplate/,
 # you must specify it as the baseurl
 # If you hosting as a root, for example: htttps://[github username].github.io, then leave it blank
-baseurl: "/hackoween_23"
+baseurl: ""
 
 header_pages:
   - code_of_conduct.md
