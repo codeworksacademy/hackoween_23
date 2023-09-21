@@ -165,13 +165,24 @@ section p span {
 }
 
 .info .item p {
-  font-weight: unset;
+  font-weight: 300;
   color: var(--page-bg);
 }
 
 .info .item img {
   max-width: min(100%,250px);
 }
+
+/*
+ * Sponsor Section
+ */
+
+.sponsor img{
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  max-width: min(100%, 150px);
+}
+
 
 /*
  * FAQ Section

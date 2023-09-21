@@ -34,21 +34,18 @@ layout: default
 
 <section class="sponsors">
   <div class="container">
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-12 text-center">
         <h2>Sponsors</h2>
       </div>
     </div>
-    <div class="items row">
+    <div class="items d-flex align-items-center justify-content-around gap-2">
       {% for sponsor in site.event.sponsors %}
-      <div class="col-xs-12 col-md-2">
-        <div class="sponsor">
-          <div class="text-center">
-            <a href="{{sponsor.url}}" target="_blank">
-              <img class="img-fluid" src="{{ sponsor.image }}" />
-              <h3>{{ sponsor.name }}</h3>
-            </a>
-          </div>
+      <div class="sponsor">
+        <div class="text-center">
+          <a href="{{sponsor.url}}" target="_blank">
+            <img class="img-fluid" src="{{ sponsor.image }}" title="{{sponsor.name}}" />
+          </a>
         </div>
       </div>
       {% endfor %}
