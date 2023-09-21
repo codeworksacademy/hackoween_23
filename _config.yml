@@ -38,9 +38,9 @@ seo:
 
 # Event information.
 event:
-  image: ""
-  name:        "CodeWorks SpookyTech Hackathon: Unleash Halloween with OpenAI"
-  subtitle: "Are you ready to embrace the eerie and mysterious side of AI tech this Halloween season"
+  name:        "Unleash Halloween with OpenAI"
+  image:       "images/announcement.jpg"
+  subtitle: "Embrace the eerie and mysterious side of AI in this Hack-0-Ween Challenge"
   description: "Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords."
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
@@ -75,6 +75,15 @@ event:
         title: "Collaboration and Learning"
         description: >
           Connect with fellow tech enthusiasts, learn from experienced mentors, and expand your network within the tech community. The SpookyTech Hackathon is a fantastic opportunity to collaborate and grow your skills.
+
+  # Sponsors
+
+  sponsors:
+    - name: CodeWorks
+      image: https://bcw.blob.core.windows.net/public/img/8600856373152463
+      url: https://boisecodeworks.com
+
+
 
   # Frequently asked questions.
   faq:

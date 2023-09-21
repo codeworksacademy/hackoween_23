@@ -14,9 +14,9 @@
   --theme: #8bc539;
   --accent: purple;
   --alert: yellow;
-  --secondary: orange;
+  --secondary: #d7a356;
   --dark: #0c0c0c;
-  --light: #ebebeb;
+  --light: #d0d0d0;
   --page-bg: #c1c1c1;
 }
 
@@ -41,6 +41,7 @@ section {
 .hero {
   background-color: var(--dark);
   min-height: 100vh;
+  padding: 4em;
 }
 
 .hero img {
