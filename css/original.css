@@ -72,7 +72,7 @@ section {
 }
 
 .hero img {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .hero hr {
@@ -83,7 +83,7 @@ section {
 }
 
 .hero .wrapper {
-  padding-top: 15vh;
+  padding-top: 8vh;
 }
 
 .hero .wrapper h1 {
