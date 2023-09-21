@@ -12,9 +12,9 @@
     </div>
   </section>
 
-  <script src="{{ '/js/app.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
   {% include analytics/google_analytics.html ga_id=site.tracking.google_analytics %}
+  <script src="{{ '/js/app.js' | site.baseurl }}"></script>
   </body>
 
 </html>
