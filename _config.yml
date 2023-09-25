@@ -41,24 +41,24 @@ event:
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
   rules: >
-    - **Team Size:** Teams can consist of 1 to 4 members. Collaboration is encouraged to combine diverse skills and perspectives.
-    - **Project Initiation:** All projects must be initiated on the day of the event. To ensure a level playing field, participants are not allowed to pre-game or work on their projects before the official start time.
-    - **Project Categories:** Participants have the flexibility to choose from various project categories, including software applications, physical prototypes, IoT devices, chatbots, or wearable technology. However, all projects must align with the spooky Halloween theme.
-    - **Use of OpenAI:** Participants are encouraged to integrate OpenAI technology into their projects to enhance functionality and intelligence. The use of OpenAI language models is not mandatory but highly recommended.
-    - **Spooky Theme:** The hallmark of this hackathon is the spooky theme. All projects, costumes, or bots must incorporate elements related to Halloween. This could involve ghostly visuals, eerie sounds, or content that evokes the spirit of the season.
-    - **Project Secret:** During the opening ceremony, a secret element or requirement related to the spooky theme will be revealed to all participants. All projects must incorporate this secret element in some unique way.
-    - **Project Presentation:** Teams will have a designated time to present their projects to the judging panel. Presentations should include a demonstration of the project's functionality, and how it integrates the revealed secret.
-    - **Code of Conduct:** Participants are expected to maintain a respectful and inclusive environment throughout the hackathon. Any form of discrimination, harassment, or disruptive behavior will not be tolerated.
-    - **Intellectual Property:** Participants retain ownership of their project's intellectual property. However, organizers may request the use of project details for promotional purposes.
-    - **Submission Deadline:** All projects must be submitted before the specified deadline at the end of the hackathon. Late submissions may not be considered for judging.
+    * **Team Size:** Teams can consist of 1 to 4 members. Collaboration is encouraged to combine diverse skills and perspectives.
+    * **Project Initiation:** All projects must be initiated on the day of the event. To ensure a level playing field, participants are not allowed to pre-game or work on their projects before the official start time.
+    * **Project Categories:** Participants have the flexibility to choose from various project categories, including software applications, physical prototypes, IoT devices, chatbots, or wearable technology. However, all projects must align with the spooky Halloween theme.
+    * **Use of OpenAI:** Participants are encouraged to integrate OpenAI technology into their projects to enhance functionality and intelligence. The use of OpenAI language models is not mandatory but highly recommended.
+    * **Spooky Theme:** The hallmark of this hackathon is the spooky theme. All projects, costumes, or bots must incorporate elements related to Halloween. This could involve ghostly visuals, eerie sounds, or content that evokes the spirit of the season.
+    * **Project Secret:** During the opening ceremony, a secret element or requirement related to the spooky theme will be revealed to all participants. All projects must incorporate this secret element in some unique way.
+    * **Project Presentation:** Teams will have a designated time to present their projects to the judging panel. Presentations should include a demonstration of the project's functionality, and how it integrates the revealed secret.
+    * **Code of Conduct:** Participants are expected to maintain a respectful and inclusive environment throughout the hackathon. Any form of discrimination, harassment, or disruptive behavior will not be tolerated.
+    * **Intellectual Property:** Participants retain ownership of their project's intellectual property. However, organizers may request the use of project details for promotional purposes.
+    * **Submission Deadline:** All projects must be submitted before the specified deadline at the end of the hackathon. Late submissions may not be considered for judging.
   judging: >
     Projects will be graded in 5 categories; **Creativity, Technical, Presentation, Experience and Theme**.  For each category a project will be awarded 1-5 points. 5 Scoring well in that category and 1 being poor. These scores are will be given individually by each judge and then averaged.
 
-    - **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
-    - **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
-    - **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
-    - **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
-    - **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
+    * **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
+    * **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
+    * **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
+    * **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
+    * **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
 
   hero:
     links:
