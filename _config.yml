@@ -78,11 +78,11 @@ event:
   # Info Sections
   info:
     sections:
-      - image: "images/image1.png"
+      - image: "images/image2.png"
         title: "OpenAI Integration"
         description: |
           Participants are encouraged to use OpenAI's powerful language models to add a touch of intelligence to their Halloween-themed creations. From chatbots that tell ghost stories to AI-powered costume recommendations, the possibilities are endless.
-      - image: "images/image2.png"
+      - image: "images/image1.png"
         title: "Spooky Themes"
         description: |
           We're looking for projects, costumes, and bots that embrace the spirit of Halloween. Think haunted houses, ghostly apparitions, witches' spells, and everything eerie and enchanting.
@@ -90,7 +90,7 @@ event:
         title: "Thrilling Prizes"
         description: |
           Compete for a chance to win exciting prizes, including tech gadgets, online course subscriptions, and more. Our judges will evaluate projects based on creativity, technical prowess, and adherence to the spooky theme.
-      - image: "images/image3.png"
+      - image: "images/image4.png"
         title: "Collaboration and Learning"
         description: |
           Connect with fellow tech enthusiasts, learn from experienced mentors, and expand your network within the tech community. The SpookyTech Hackathon is a fantastic opportunity to collaborate and grow your skills.
