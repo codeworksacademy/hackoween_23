@@ -52,7 +52,7 @@ event:
     - **Intellectual Property:** Participants retain ownership of their project's intellectual property. However, organizers may request the use of project details for promotional purposes.
     - **Submission Deadline:** All projects must be submitted before the specified deadline at the end of the hackathon. Late submissions may not be considered for judging.
   judging: |
-    Projects will be graded in 5 categories; **Creativity, Technical, Presentation, Experience and Theme**.  For each category a project will be awarded 1-5 points. 5 Scoring well in that category and 1 being poor. These scores are will be given individually by each judge and then averaged.
+    Projects will be graded in 5 categories; **Creativity, Technical, Presentation, Experience and Theme**.  For each category a project will be awarded 1-5 points.
 
     - **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
     - **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
