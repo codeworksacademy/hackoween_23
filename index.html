@@ -5,10 +5,12 @@ layout: default
 {% include hero.html %}
 
 <section class="about">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      <div>
-        {{ site.event.about.description | markdownify }}
+  <div class="row">
+    <div class="container">
+      <div class="col-12">
+        <div>
+          {{ site.event.about.description | markdownify }}
+        </div>
       </div>
     </div>
   </div>
@@ -18,7 +20,7 @@ layout: default
   <div class="container-fluid">
     <div class="items row">
       {% for section in site.event.info.sections %}
-      <div class="col-xs-12 col-md-6">
+      <div class="col-12 col-lg-6">
         <div class="item">
           <div class="text-center">
             <img src="{{ section.image }}" />
@@ -28,6 +30,40 @@ layout: default
         </div>
       </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="rules">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-center">
+        <h2>Participation Rules</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div>
+          {{ site.event.rules | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="judging bg-black text-theme">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-center">
+        <h2>Judging Criteria</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div>
+          {{ site.event.judging | markdownify }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
