@@ -151,6 +151,14 @@ section p span {
   text-transform: uppercase;
 }
 
+section ul li{
+  list-style-type: none;;
+}
+
+section ul li{
+  margin-bottom: 1.2em;
+}
+
 /*
  * Info Section
  */

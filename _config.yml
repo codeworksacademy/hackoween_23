@@ -134,7 +134,7 @@ event:
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
 
-markdown: kramdown
+markdown: GFM
 exclude:
  - node_modules
  - gulpfile.js
