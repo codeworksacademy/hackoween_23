@@ -40,25 +40,25 @@ event:
   subtitle: "Embrace the eerie and mysterious side of AI in this Hack-0-Ween Challenge"
   date:        "28 October 2023"
   location:    "Boise, ID, United States"
-  rules: >
-    * **Team Size:** Teams can consist of 1 to 4 members. Collaboration is encouraged to combine diverse skills and perspectives.
-    * **Project Initiation:** All projects must be initiated on the day of the event. To ensure a level playing field, participants are not allowed to pre-game or work on their projects before the official start time.
-    * **Project Categories:** Participants have the flexibility to choose from various project categories, including software applications, physical prototypes, IoT devices, chatbots, or wearable technology. However, all projects must align with the spooky Halloween theme.
-    * **Use of OpenAI:** Participants are encouraged to integrate OpenAI technology into their projects to enhance functionality and intelligence. The use of OpenAI language models is not mandatory but highly recommended.
-    * **Spooky Theme:** The hallmark of this hackathon is the spooky theme. All projects, costumes, or bots must incorporate elements related to Halloween. This could involve ghostly visuals, eerie sounds, or content that evokes the spirit of the season.
-    * **Project Secret:** During the opening ceremony, a secret element or requirement related to the spooky theme will be revealed to all participants. All projects must incorporate this secret element in some unique way.
-    * **Project Presentation:** Teams will have a designated time to present their projects to the judging panel. Presentations should include a demonstration of the project's functionality, and how it integrates the revealed secret.
-    * **Code of Conduct:** Participants are expected to maintain a respectful and inclusive environment throughout the hackathon. Any form of discrimination, harassment, or disruptive behavior will not be tolerated.
-    * **Intellectual Property:** Participants retain ownership of their project's intellectual property. However, organizers may request the use of project details for promotional purposes.
-    * **Submission Deadline:** All projects must be submitted before the specified deadline at the end of the hackathon. Late submissions may not be considered for judging.
-  judging: >
+  rules: |
+    - **Team Size:** Teams can consist of 1 to 4 members. Collaboration is encouraged to combine diverse skills and perspectives.
+    - **Project Initiation:** All projects must be initiated on the day of the event. To ensure a level playing field, participants are not allowed to pre-game or work on their projects before the official start time.
+    - **Project Categories:** Participants have the flexibility to choose from various project categories, including software applications, physical prototypes, IoT devices, chatbots, or wearable technology. However, all projects must align with the spooky Halloween theme.
+    - **Use of OpenAI:** Participants are encouraged to integrate OpenAI technology into their projects to enhance functionality and intelligence. The use of OpenAI language models is not mandatory but highly recommended.
+    - **Spooky Theme:** The hallmark of this hackathon is the spooky theme. All projects, costumes, or bots must incorporate elements related to Halloween. This could involve ghostly visuals, eerie sounds, or content that evokes the spirit of the season.
+    - **Project Secret:** During the opening ceremony, a secret element or requirement related to the spooky theme will be revealed to all participants. All projects must incorporate this secret element in some unique way.
+    - **Project Presentation:** Teams will have a designated time to present their projects to the judging panel. Presentations should include a demonstration of the project's functionality, and how it integrates the revealed secret.
+    - **Code of Conduct:** Participants are expected to maintain a respectful and inclusive environment throughout the hackathon. Any form of discrimination, harassment, or disruptive behavior will not be tolerated.
+    - **Intellectual Property:** Participants retain ownership of their project's intellectual property. However, organizers may request the use of project details for promotional purposes.
+    - **Submission Deadline:** All projects must be submitted before the specified deadline at the end of the hackathon. Late submissions may not be considered for judging.
+  judging: |
     Projects will be graded in 5 categories; **Creativity, Technical, Presentation, Experience and Theme**.  For each category a project will be awarded 1-5 points. 5 Scoring well in that category and 1 being poor. These scores are will be given individually by each judge and then averaged.
 
-    * **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
-    * **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
-    * **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
-    * **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
-    * **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
+    - **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
+    - **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
+    - **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
+    - **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
+    - **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
 
   hero:
     links:
@@ -68,7 +68,7 @@ event:
         href: ""
 
   about:
-    description: >
+    description: |
       > Calling all tech enthusiasts, developers, and creative minds to come create a spine-chilling project harnessing the AI Overlords.
 
       The SpookyTech Hackathon is a unique and immersive event that challenges participants to incorporate OpenAI technology into their Halloween-themed projects, costumes, or bots. Whether you're a seasoned developer or a novice coder, this event promises a ghoulishly good time filled with innovation, creativity, and the opportunity to learn and experiment with cutting-edge AI.
@@ -80,19 +80,19 @@ event:
     sections:
       - image: "images/image1.png"
         title: "OpenAI Integration"
-        description: >
+        description: |
           Participants are encouraged to use OpenAI's powerful language models to add a touch of intelligence to their Halloween-themed creations. From chatbots that tell ghost stories to AI-powered costume recommendations, the possibilities are endless.
       - image: "images/image2.png"
         title: "Spooky Themes"
-        description: >
+        description: |
           We're looking for projects, costumes, and bots that embrace the spirit of Halloween. Think haunted houses, ghostly apparitions, witches' spells, and everything eerie and enchanting.
       - image: "images/image3.png"
         title: "Thrilling Prizes"
-        description: >
+        description: |
           Compete for a chance to win exciting prizes, including tech gadgets, online course subscriptions, and more. Our judges will evaluate projects based on creativity, technical prowess, and adherence to the spooky theme.
       - image: "images/image3.png"
         title: "Collaboration and Learning"
-        description: >
+        description: |
           Connect with fellow tech enthusiasts, learn from experienced mentors, and expand your network within the tech community. The SpookyTech Hackathon is a fantastic opportunity to collaborate and grow your skills.
 
   # Sponsors
@@ -107,27 +107,27 @@ event:
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
-      answer: >
+      answer: |
         A hackathon is an invention marathon. Students come together to build cool
         software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
-      answer: >
+      answer: |
         Nothing. Attending a Hackathon is free. Equipment, Swag, and Participation in some events may have required purchases 
     - question: "Do I need to be a student to attend?"
-      answer: >
+      answer: |
         No. While many students are likely to participate we are open to the community. Often categories of the competition will be split to included student and community prizes.
     - question: "Where is the event?"
-      answer: >
+      answer: |
         The event is being hosted at CodeWorks. 8455 Westpark Ave, Boise ID 83704
     - question: "What is CodeWorks?"
-      answer: >
+      answer: |
         CodeWorks provides multi-week educational bootcamps that teach promising students in-demand tech skills. Learn More at [boisecodeworks.com](https://boisecodeworks.com)
     - question: "Is there a code of conduct?"
-      answer: >
+      answer: |
         Yes there is. We enforce it very strongly. You can [find it here](https://github.com/codeworksacademy/hackathon_code_of_conduct)
   # This is the message you'll receive once you've registered.
   register:
-    message: >
+    message: |
       You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
