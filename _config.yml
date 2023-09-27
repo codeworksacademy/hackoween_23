@@ -101,6 +101,12 @@ event:
     - name: CodeWorks
       image: https://bcw.blob.core.windows.net/public/img/8600856373152463
       url: https://boisecodeworks.com
+    - name: BSDG
+      image: images/bsdg-logo.jpg
+      url: https://www.linkedin.com/groups/14302958/
+    - name: GDG Boise
+      image: images/gdg_boise.png
+      url: https://gdg.community.dev/gdg-boise/
 
 
 
