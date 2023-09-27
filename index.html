@@ -75,9 +75,10 @@ layout: default
         <h2>Sponsors</h2>
       </div>
     </div>
-    <div class="items d-flex align-items-center justify-content-around gap-2">
+
+    <div class="row justify-content-around">
       {% for sponsor in site.event.sponsors %}
-      <div class="sponsor">
+      <div class="col-md-3">
         <div class="text-center">
           <a href="{{sponsor.url}}" target="_blank">
             <img class="img-fluid" src="{{ sponsor.image }}" title="{{sponsor.name}}" />
