@@ -107,6 +107,9 @@ event:
     - name: GDG Boise
       image: images/gdg_boise.png
       url: https://gdg.community.dev/gdg-boise/
+    - name: JetBrains
+      image: https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg
+      url: https://jb.gg/studentlicense
 
 
 
