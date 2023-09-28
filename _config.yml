@@ -113,7 +113,7 @@ event:
 
   swag_tag: From stickers, shirts and snacks... Take a sneak peak at some of the haunted items
   swag:
-    - name: Secret Event T-shirt
+    - name: Secret Event sticker and shirt
       image: images/secret_shirt.png
     - name: CodeWorks Swag
       image: images/codeworks_swag.png
