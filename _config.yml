@@ -111,6 +111,16 @@ event:
       image: https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg
       url: https://jb.gg/studentlicense
 
+  swag_tag: From stickers, shirts and snacks... Take a sneak peak at some of the haunted items
+  swag:
+    - name: Secret Event T-shirt
+      image: images/secret_shirt.png
+    - name: CodeWorks Swag
+      image: images/codeworks_swag.png
+    - name: Spooky Sticks
+      image: images/spooky_sticks.jpg
+
+
 
 
   # Frequently asked questions.

@@ -90,6 +90,29 @@ layout: default
   </div>
 </section>
 
+<section class="swag bg-black text-light">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-center">
+        <h2 class="text-theme">Grab Some Swag</h2>
+        <p>{{site.event.swag_tag}}</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-around align-items-center bg-white">
+      {% for swag in site.event.swag %}
+      <div class="col-md-3 mb-3 col-8 m-auto">
+        <div class="text-center">
+          <img class="img-fluid" src="{{ swag.image }}" title="{{swag.name}}" style="max-height: 200px;" />
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
 <section class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
