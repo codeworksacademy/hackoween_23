@@ -99,11 +99,11 @@ layout: default
       </div>
     </div>
 
-    <div class="row justify-content-around align-items-center bg-white">
+    <div class="row justify-content-around align-items-center">
       {% for swag in site.event.swag %}
       <div class="col-md-3 mb-3 col-8 m-auto">
         <div class="text-center">
-          <img class="img-fluid" src="{{ swag.image }}" title="{{swag.name}}" style="max-height: 200px;" />
+          <img class="img-fluid rounded-circle" src="{{ swag.image }}" title="{{swag.name}}" style="max-height: 200px;" />
         </div>
       </div>
       {% endfor %}

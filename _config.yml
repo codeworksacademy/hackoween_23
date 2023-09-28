@@ -118,7 +118,7 @@ event:
     - name: CodeWorks Swag
       image: images/codeworks_swag.png
     - name: Spooky Sticks
-      image: images/spooky_sticks.jpg
+      image: images/spooky-sticks.jpg
 
 
 
