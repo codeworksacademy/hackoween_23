@@ -56,12 +56,13 @@ layout: default
     <div class="row mb-3">
       <div class="col-12 text-center">
         <h2>Judging Criteria</h2>
+        <p>{{site.event.judging.subtitle | markdownify }}</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row text-page">
       <div class="col-12">
         <div>
-          {{ site.event.judging | markdownify }}
+          {{ site.event.judging.description | markdownify }}
         </div>
       </div>
     </div>

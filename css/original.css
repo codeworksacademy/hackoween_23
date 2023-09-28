@@ -32,6 +32,9 @@
 .text-compliment{
   color: var(--compliment);
 }
+.text-page{
+  color: var(--page-bg);
+}
 
 .bg-theme{
   background-color: var(--theme);
