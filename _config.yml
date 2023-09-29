@@ -54,7 +54,7 @@ event:
 
   hero:
     links:
-      - text: "Apply"
+      - text: "Reserve your Spot"
         href: "https://www.eventbrite.com/e/codeworks-hack-0-ween-registration-726405607727"
       - text: "Sponsor"
         href: "https://codeworksacademy.com/hackoween_23/images/SponsorPacket.pdf"
