@@ -90,11 +90,11 @@ event:
   judging:
     subtitle: Projects will be graded in 5 categories; Each category will be awarded 1-5 points.
     description: |
-    - **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
-    - **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
-    - **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
-    - **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
-    - **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
+      - **Creativity:** The uniqueness and creativity of the project. Is this project we have seen before? A familiar project with an interesting twist or something truly unique.
+      - **Technical Excellence:** The technical prowess and complexity of the project including it's implementations of other technologies and assets.
+      - **Presentation:** The clarity, effectiveness, enthusiasm and overall polish displayed during the project presentation. Presentations should cover the core features of the project in a clear and engaging way.
+      - **Adherence to Theme:** How well the project aligns with the theme and captures the essence of the hackathon. The incorporation of any revealed secrets.
+      - **User Experience:** How does this project maintain user engagement. Could it's features could be used practically? What is the general user experience while using the project?
 
   # Sponsors
 
