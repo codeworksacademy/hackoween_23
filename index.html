@@ -51,6 +51,29 @@ layout: default
   </div>
 </section>
 
+<section class="agenda">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-12 text-center">
+        <h2>Agenda</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for block in site.event.agenda %}
+      <div class="col-md-8 m-auto mb-3">
+        <blockquote class="alert border rounded">
+          <p class="mb-0 text-muted small">{{ block.time }}</p>
+          <p class="lead mb-0"><b>{{ block.title }}</b></p>
+          <hr class="my-1">
+          <p class="mb-0 small text-muted">{{ block.description | markdownify }}</p>
+        </blockquote>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
 <section class="judging bg-black">
   <div class="container">
     <div class="row mb-3">
@@ -104,7 +127,8 @@ layout: default
       {% for swag in site.event.swag %}
       <div class="col-md-3 mb-3 col-8 m-auto">
         <div class="text-center">
-          <img class="img-fluid rounded-circle" src="{{ swag.image }}" title="{{swag.name}}" style="max-height: 200px;" />
+          <img class="img-fluid rounded-circle" src="{{ swag.image }}" title="{{swag.name}}"
+            style="max-height: 200px;" />
         </div>
       </div>
       {% endfor %}

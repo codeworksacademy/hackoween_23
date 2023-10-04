@@ -122,6 +122,29 @@ event:
       image: images/spooky-sticks.jpg
 
 
+  # Agenda
+  agenda:
+    - time: 5:00 PM
+      title: Friday Evening - Event Kickoff 🎃
+      description: Be sure to tune into the virtual event kickoff where the secret of the hackathon is going to be revealed to participants.
+    - time: 9:00 AM - 9:45 AM
+      title: Saturday Morning - 🔑 Event Keynote
+      description: Our Keynote presentation presented live at the CodeWorks Office. Attend for some spooky giveaways.
+    - time: 12:00 PM - 1:30 PM
+      title: Lunch Break 🍜 & Costume Awards 🧟
+      description: Take a break from all the hacking and start networking with our sponsors and Participants. Also be prepared to terrify one another with your costumes and cast your votes. 🎟️
+    - time: 1:30 PM - 5:00 PM
+      title: 👻 Spooky Giveaways Challenges
+      description: Be here throughout the day as you work on your projects for a chance to win various mini-games and prizes
+    - time: 8:00 PM - 9:00 PM
+      title: Project Submissions for Judging 😅
+      description: Its time for our esteemed judges to take a look at your project submissions, as each group presents their own work.
+    - time: 9:15 PM - 9:45 PM
+      title: 🎗️ Awards Ceremony
+      description: Our judges will take a few minutes to tally their results and we announce the winners of this Hackathon!!!
+    - time: 9:45 PM - 10:30 PM
+      title: Event Mixer 🧪
+      description: Stay a while to wind down the night before you 🧹fly off to your next event.
 
 
   # Frequently asked questions.
