@@ -60,12 +60,12 @@ layout: default
     </div>
     <div class="row">
       {% for block in site.event.agenda %}
-      <div class="col-md-8 m-auto mb-3">
+      <div class="col-12 m-auto mb-3">
         <blockquote class="alert border rounded">
           <p class="mb-0 text-muted small">{{ block.time }}</p>
           <p class="lead mb-0"><b>{{ block.title }}</b></p>
           <hr class="my-1">
-          <p class="mb-0 small text-muted">{{ block.description | markdownify }}</p>
+          <div class="mb-0 lead small text-muted">{{ block.description | markdownify }}</div>
         </blockquote>
       </div>
       {% endfor %}
