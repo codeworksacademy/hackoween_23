@@ -149,6 +149,11 @@ section p {
   letter-spacing: -.3px;
 }
 
+.lead *{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 section p span {
   font-weight: 700;
   text-transform: uppercase;
