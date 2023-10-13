@@ -102,6 +102,9 @@ event:
     - name: CodeWorks
       image: https://bcw.blob.core.windows.net/public/img/8600856373152463
       url: https://boisecodeworks.com
+    - name: Allata
+      image: images/allata.png
+      url: https://www.allata.com/
     - name: BSDG
       image: images/bsdg-logo.jpg
       url: https://www.linkedin.com/groups/14302958/
