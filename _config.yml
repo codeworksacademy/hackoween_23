@@ -105,6 +105,9 @@ event:
     - name: BSDG
       image: images/bsdg-logo.jpg
       url: https://www.linkedin.com/groups/14302958/
+    - name: Slant 3D
+      image: images/slant3d.png
+      url: https://www.slant3d.com/
     - name: GDG Boise
       image: images/gdg_boise.png
       url: https://gdg.community.dev/gdg-boise/
