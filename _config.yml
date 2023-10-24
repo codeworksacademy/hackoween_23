@@ -114,6 +114,9 @@ event:
     - name: Slant 3D
       image: images/slant3d.png
       url: https://www.slant3d.com/
+    - name: Idaho Tech Council
+      image: images/itc.png
+      url: https://idahotechcouncil.org
     - name: GDG Boise
       image: images/gdg_boise.png
       url: https://gdg.community.dev/gdg-boise/
