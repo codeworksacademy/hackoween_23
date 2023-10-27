@@ -117,6 +117,9 @@ event:
     - name: Idaho Tech Council
       image: images/itc.png
       url: https://idahotechcouncil.org
+    - name: Pad Dash
+      image: images/paddash.png
+      url: https://paddash.com/
     - name: GDG Boise
       image: images/gdg_boise.png
       url: https://gdg.community.dev/gdg-boise/
